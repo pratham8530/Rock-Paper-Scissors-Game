@@ -1,0 +1,135 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 45rem;
+	background-color: black;
+	
+}
+.main-content{
+	border: 30px solid;
+	background-color: rgb(95, 95, 95);
+  border-image: linear-gradient(180deg, rgb(98, 79, 79), rgb(46, 44, 44)) 1;
+	padding: 20px 30px 30px 30px;
+}
+.title-out{
+	display: flex;
+	align-items: center;
+	border: 4px solid rgb(195, 203, 185);
+	border-radius: 90px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgb(108, 109, 125);
+	box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.title-in{
+	font-size: 50px;
+	color: rgb(255, 230, 41);
+	font-weight: bold;
+	font-family: Bruno Ace, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.main-buttons{
+	display: flex;
+	justify-content: space-between;
+	width: 670px;
+	margin-right: 35px;
+}
+.rock-button{
+	border-radius: 50px;
+	border: none;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	padding: 0px;
+	cursor: pointer;
+}
+.paper-button{
+	border-radius: 50px;
+	border: none;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	padding: 0px;
+	cursor: pointer;
+}
+.scissors-button{
+	border-radius: 50px;
+	border: none;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	padding: 0px;
+	cursor: pointer;
+}
+.reset-button{
+	border-radius: 50px;
+	border: none;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	padding: 0px;
+	cursor: pointer;
+}
+.result-img{
+	height: 50px; width: 50px;
+}
+img{
+	height: 135px;
+}
+.results{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	align-items: center;
+	height: 200px;
+	justify-content: space-between;
+}
+.js-moves{
+	font-size: 20px;
+	color: rgb(243, 229, 128);
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+}
+.js-result{
+	font-size: 20px;
+	color: rgb(229, 158, 114);
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	margin: 15px;
+	margin-bottom: 0px;
+}
+.final-score{
+	background-color: rgb(108, 109, 125);
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	justify-content: space-between;
+	flex-direction: column;
+	border: 6px solid rgb(195, 203, 185);
+	border-radius: 20px;
+	padding: 10px 190px 10px 190px;
+}
+.finaltext{
+	font-size: 40px;
+	color: rgb(204, 255, 0);
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.js-score{
+	font-size: 20px;
+	color: rgb(243, 229, 128);
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+}
+
